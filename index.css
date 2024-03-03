@@ -1,0 +1,57 @@
+
+#productTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#productTable th, #productTable td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#productTable th {
+    background-color: #f2f2f2;
+}
+
+
+#productForm {
+    margin-bottom: 20px;
+}
+
+#productForm input[type="text"],
+#productForm input[type="number"],
+#productForm input[type="url"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+}
+
+#productForm button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#productForm button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+.editBtn, .deleteBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.editBtn:hover, .deleteBtn:hover {
+    background-color: #45a049;
+}
